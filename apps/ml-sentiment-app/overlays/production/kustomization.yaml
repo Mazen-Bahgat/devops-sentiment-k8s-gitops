@@ -8,7 +8,7 @@ patches:
         path: /spec/replicas
         value: 4
     target:
-      kind: Deployment
+      kind: Rollout
       name: ml-sentiment-app
   - patch: |-
       - op: replace
@@ -18,7 +18,7 @@ patches:
         path: /spec/template/spec/containers/0/resources/limits/memory
         value: "1Gi"
     target:
-      kind: Deployment
+      kind: Rollout
       name: ml-sentiment-app
 images:
   - name: registry.local:5000/ml-sentiment-app
