@@ -23,4 +23,4 @@ patches:
       name: ml-sentiment-app
 images:
   - name: registry.local:5000/ml-sentiment-app
-    newTag: "d94ffe25b969e3b0b387b4e7330bf96b38e5f6a1"   
+    newTag: "d6f538af78edc743cace6328ac23fcfc6eb6621e"   
