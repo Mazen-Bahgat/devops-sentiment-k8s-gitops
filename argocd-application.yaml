@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: http://localhost:3000/cisc814-gitea/team-4-gitops.git
+    repoURL: http://cisc814-gitea:3000/cisc814-gitea/team-4-gitops.git
     targetRevision: main
     path: apps/ml-sentiment-app/overlays/production
   destination:
