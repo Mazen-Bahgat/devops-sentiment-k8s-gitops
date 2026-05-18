@@ -5,6 +5,7 @@ resources:
   - rollout.yaml
   - service.yaml
   - canary-service.yaml
+  - monitoring/servicemonitor.yaml
 labels:
   - pairs:
       app.kubernetes.io/name: ml-sentiment-app
