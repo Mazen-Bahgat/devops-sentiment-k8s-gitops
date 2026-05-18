@@ -5,6 +5,9 @@ resources:
   - rollout.yaml
   - service.yaml
   - canary-service.yaml
-commonLabels:
-  app.kubernetes.io/name: ml-sentiment-app
-  app.kubernetes.io/part-of: ml-sentiment-platform
+labels:
+  - pairs:
+      app.kubernetes.io/name: ml-sentiment-app
+      app.kubernetes.io/part-of: ml-sentiment-platform
+    includeSelectors: false
+    includeTemplates: true
