@@ -24,6 +24,7 @@ data:
           }
         ]
       },
+      "description": "",
       "editable": true,
       "fiscalYearStartMonth": 0,
       "graphTooltip": 0,
@@ -34,6 +35,7 @@ data:
             "type": "prometheus",
             "uid": "prometheus"
           },
+          "description": "Request rate",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -129,6 +131,7 @@ data:
             "type": "prometheus",
             "uid": "prometheus"
           },
+          "description": "Error rate (5xx)",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -343,6 +346,7 @@ data:
             "type": "prometheus",
             "uid": "prometheus"
           },
+          "description": "CPU/Memory per pod",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -450,7 +454,7 @@ data:
       "refresh": "",
       "schemaVersion": 42,
       "time": {
-        "from": "now-6h",
+        "from": "now-5m",
         "to": "now"
       },
       "timepicker": {
