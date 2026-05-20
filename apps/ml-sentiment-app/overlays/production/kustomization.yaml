@@ -7,7 +7,7 @@ patches:
   - patch: |-
       - op: replace
         path: /spec/replicas
-        value: 5
+        value: 4
     target:
       kind: Rollout
       name: ml-sentiment-app
